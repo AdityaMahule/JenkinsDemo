@@ -1,5 +1,5 @@
-#jenkins pipeline script
-#pipeline with stages compile, test, build and echo message in the stages
+// jenkins pipeline script
+// pipeline with stages compile, test, build and echo message in the stages
 
 pipeline {
     agent any
