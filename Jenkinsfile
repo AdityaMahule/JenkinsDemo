@@ -36,11 +36,11 @@ pipeline {
         echo "This is a post build stage. This will always run"
     }
         success{
-        echo "This is a post build stage"
+        echo "This is a post build stage, after successfully running the pipeline"
     }
         failure{
         echo "This is a post build stage"
     }
-   -}
+   }
 }
 
