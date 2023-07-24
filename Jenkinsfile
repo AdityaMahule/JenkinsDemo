@@ -33,7 +33,7 @@ pipeline {
 
     post{
         always{
-        echo "This is a post build stage"
+        echo "This is a post build stage. This will always run"
     }
         success{
         echo "This is a post build stage"

@@ -1,0 +1,1 @@
+#image for springboot application using openjdk 17
