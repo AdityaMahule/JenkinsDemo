@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Compile Stage') {
             steps {
-                echo 'Compiling the code'
+                echo 'Compiling the code for contacts api quarkus project'
             }
         }
         stage('Test Stage') {
